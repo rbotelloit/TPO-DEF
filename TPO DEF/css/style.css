@@ -1,0 +1,114 @@
+* {box-sizing: border-box;
+    margin: 1px;
+    padding: 2px;
+}
+
+/* Insertando fuente */
+@font-face {
+    font-family: "gow";
+    src: url('Fonts/font.TTF');
+}
+
+body {background-color: black;
+}
+
+
+/* Insertando fuente */
+
+/* Div Cabecera  */
+/* .logo {
+    justify-content:flex-start;
+    display:flex;
+    padding: 5px; 
+    background-color: blue;
+    margin-top: 5px;
+    flex-direction: row;
+    width: 25vw;
+    height: 25vw;
+     } */
+
+.miDiv {
+    background-color: black;
+    grid-template-columns:repeat(8, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    display: grid;
+    padding: 5px;
+    margin: 5px;
+}
+
+.grid-logo {
+    grid-column: 1 / 2;
+    width: 1fr;
+    height: 1fr;
+}
+
+.grid-nombre {
+    grid-column: 3 / 4;
+    width: 1fr;
+    height: 1fr;
+}
+/* Div Cabecera  */
+
+
+/* Logo cabecera Fondo degradado */
+#gamer {color: white; background:linear-gradient(black 50%, red 50%);
+    ;}
+/* Logo cabecera Fondo degradado  */
+
+/* Div Cabecera  */
+head {background-color: black;}
+/* Div Cabecera  */
+
+/* Menú */
+.menu:link {color: red; list-style-type: square; 
+    text-emphasis-style: red; 
+    text-decoration-line: red;
+    font-family: "gow";
+}
+
+.menu:visited {color: white; list-style-type: square; 
+}
+
+.menu:hover {color: red; list-style-type: square; font-size: 1.4em; 
+}
+
+.menu:active {color: yellow; list-style-type: square; 
+}
+
+.menu-bar:hover {color: red;
+}
+
+.navbar .menu {
+    grid-column: 4 / 7;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .menu li {
+    list-style: none;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+}
+
+/* Menú */
+
+h1 {color: white; font-family: "gow";}
+
+h2 { color: rgb(255, 0, 0);font-family: "gow";}
+
+h3 {color: red;font-family: "gow";}
+
+p {color: white;}
+
+li{color: white;}
+
+form {color: white;}
+
+i {color: red;}
+
+address{color: yellow;}
+
+footer {background-color: black;}
+
